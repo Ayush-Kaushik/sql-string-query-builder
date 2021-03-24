@@ -1,0 +1,23 @@
+{
+  "name": "sql-string-query-builder",
+  "version": "1.0.0",
+  "description": "simple SQL query builder which uses SQL template and parameters to build a complete query",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "sql",
+    "query",
+    "builder"
+  ],
+  "author": "ayush-kaushik",
+  "license": "ISC",
+  "dependencies": {
+    "sqlstring": "^2.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
